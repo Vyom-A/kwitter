@@ -1,31 +1,32 @@
 <html>
 <head>
 <title>
-Kwitter Room
+Messaging page of kwitter
 </title>
 <link rel = "stylesheet" href = "style.css">
-<script type = "text/javascript"></script>
-</script>
 <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script type = "text/javascript"></script>
+
 </head>
 
-<body class = "bg-warning" style="text-align: center;" onload="set_text();">
-<h1 class = "text-primary" id = "text"></h1>
-<br>
-<br>
-<center>
-<div class = "bg-info" id = "divider">
-<h4>Enter your name room name below</h4>
-<input class = "form-control" id = "room_input" placeholder="Enter room name below">
-<br>
-<button class = "btn btn-primary" id = "navigate_button" onclick="add_room();">Navigate</button>
+<body class = "bg-info">
+
+<h1 class = "page-header">
+Kwitter
+</h1>
+
+<div class = "container">
+
+<button class = "glyphicon glyphicon-log-out btn btn-danger" id = "logout_button">Logout</button>
+    
 </div>
-</center>
-<script src = "kwitter_room.js"></script>
+
+<script src = "kwitter_page.js"></script>
 </body>
 </html>

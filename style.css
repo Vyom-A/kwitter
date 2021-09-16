@@ -24,3 +24,6 @@ font-size : 15px;
 #divider {
 width : 50%;
 }
+#logout_button {
+float: right;
+}

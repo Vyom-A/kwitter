@@ -9,7 +9,8 @@ const firebaseConfig = {
   };
 
   // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
+  //const app = initializeApp(firebaseConfig);
+  firebase.initializeApp(firebaseConfig)
 
 
 function set_text() {
@@ -45,4 +46,5 @@ document.getElementById("output").innerHTML += row ;
         console.log("name");
         localStorage.setItem("room_name",room_name);
         window.location = "kwitter_page.html";
+        console.log("successfuly navigated");
         }
